@@ -1,6 +1,8 @@
 # Echo-Status
 
-A Flutter app for status monitoring designed for IoT devices such as the Amazon Echo Show.
+A Flutter app for status monitoring designed for IoT devices (such as the Amazon Echo Show).
+
+<img width="960" height="480" alt="Screenshot_20260102-185012_Trebuchet" src="https://github.com/user-attachments/assets/5ada6ea9-0953-482e-b7e0-d28021a39c81" />
 
 ## Download
 
@@ -15,9 +17,16 @@ flutter pub get
 flutter pub run build_runner build
 ```
 
+To build the APK, run:
+
+```
+flutter build apk --release
+```
+
+This will output a `.apk` file in the `build/app/outputs/flutter-apk/` directory. You can copy this `.apk` file onto your Android-compatible IoT device.
+
 ## License
 
 This software is licensed under the LGPL-2.1 license.
 
 Thanks to [@pom](https://pompompurin.tech/) the GUI design.
-<img width="960" height="480" alt="Screenshot_20260102-185012_Trebuchet" src="https://github.com/user-attachments/assets/5ada6ea9-0953-482e-b7e0-d28021a39c81" />
