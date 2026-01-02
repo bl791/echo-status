@@ -29,4 +29,4 @@ This will output a `.apk` file in the `build/app/outputs/flutter-apk/` directory
 
 This software is licensed under the LGPL-2.1 license.
 
-Thanks to [@pom](https://pompompurin.tech/) the GUI design.
+Thanks to [pom](https://pompompurin.tech/) the GUI design.
