@@ -1,0 +1,6 @@
+# Everything except lib/ and pubspec.yaml
+*
+!.gitignore
+!pubspec.yaml
+!lib/
+!lib/**
