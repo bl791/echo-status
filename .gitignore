@@ -4,3 +4,6 @@
 !pubspec.yaml
 !lib/
 !lib/**
+
+# Generated Hive adapters (regenerate with: flutter pub run build_runner build)
+*.g.dart
